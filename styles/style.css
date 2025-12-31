@@ -1,0 +1,68 @@
+:root {
+  --clr-dark: #070a13;
+  --clr-light: oklch(96.8% 0.007 247.896);
+  --clr-slate400: oklch(70.4% 0.04 256.788);
+  --clr-slate600: oklch(44.6% 0.043 257.281);
+  --clr-slate800: oklch(27.9% 0.041 260.031);
+  --clr-rose: oklch(58.6% 0.253 17.585);
+  --clr-indigo: oklch(51.1% 0.262 276.966);
+
+  /* rose 	rgb(225, 29, 72) */
+  /* indigo   rgb(79, 70, 229) */
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "general-sans", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+button {
+  display: inline-block;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+}
+a {
+  color: var(--clr-rose);
+}
+
+strong {
+  color: var(--clr-indigo);
+}
